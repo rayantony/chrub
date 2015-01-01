@@ -3,7 +3,7 @@ chrub
 
 ###Acer C7 Chromebook Resources
 
-####a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run 4 exclusively for literally everything, not necessarily by preference.
+####a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run exclusively for literally everything, not necessarily by preference.
 
 ###Critical Acclaim (sort of):
 <ul><i>
@@ -14,6 +14,9 @@ chrub
 + "Chromebooks are an oddity of the modern computing world"
 + "At $199, you get what you pay for..."
 + "you'll have to accept a lot of compromises"
+
+###Attachments 
+[raybuntuusb.sh](raybuntuusb.sh)
 
 
 
