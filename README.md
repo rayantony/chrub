@@ -1,9 +1,9 @@
-[chrub](http://rayantony.github.io/chrub)
+[chrub](http://rayantony.github.io/chrub/)
 =========================================
 
-###[Acer C7 Chromebook Resources README.md](https://github.com/rayantony/chrub/master/README.md)
+###[Acer C7 Chromebook Resources README.md](https://github.com/rayantony/chrub/blob/master/README.md)
 
-####see also [http://rayantony.github.io/chrub](http://rayantony.github.io/chrub)
+####see also [http://rayantony.github.io/chrub](https://rayantony.github.io/chrub/)
 
 This a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run along with a Pi B exclusively for literally everything including multiple businesses in all phases, development, beta testing, all communication non-cellular, and any entertainment needs if the time were allotted. Though not necessarily by preference. This involves a fair amount of setup work and understanding of the nuances fo the machine, of ChromeOS and of Linux. Nothing terribly complicated but enough to surely frighten the novice linux user, perhaps with good reason. There is a lot to know but with this knowledge comes great power at almost inconceivably reasonable/affordable pricing. More for less, not something you stumble into everyday. If I could buy one for everyone in the world I would. 
 
@@ -20,17 +20,18 @@ This a collection of my chrubuntu setup tools and configurations for the Acer c7
 :laughing:
 
 ###File Attachments 
-These are some useful tools I've cooked up for the purpose of creating USB Drives to run instances of Ubuntu/Chrubuntu/Raybuntu from most favor 12.04 64bit. In haphazard repositories and folders scattered around there are many versions of each script, I'm attempting to organize and put working tested versions in a single place (this place). In the hope of making my life easier and perhaps someone elses too :love:
+These are some useful tools I've cooked up for the purpose of creating USB Drives to run instances of Ubuntu/Chrubuntu/Raybuntu from most favor 12.04 64bit. In haphazard repositories and folders scattered around there are many versions of each script, I'm attempting to organize and put working tested versions in a single place (this place). In the hope of making my life easier and perhaps someone elses too.
 
-+ [raybuntuusb.sh](raybuntuusb.sh)
+
++ [raybuntuusb.sh](https://github.com/rayantony/chrub/blob/master/tools/linux/raybuntuusb.sh)
 raybuntuusb.sh: This tool that runs in Bash is for taking an unpartitioned USB key/drive with no more than a Master Boot Record or MBR and creating a GPT table in the style of ChromeOS on which a kernel (partition 6) and filesystem (partition 7) can be placed. Because I "dd" the partitions from my clone repository or another plugged in drive, the partitions themselves are not actually formatted
 
-+ [raybuntuusbfix.sh](raybuntuusbfix.sh)
++ [raybuntuusbfix.sh](tools/linux/raybuntuusbfix.sh)
 Post "dd" fixer to adjust filesystem sizes and perform maintenance standard fsck'ing and e2fsck procesing especially useful for condensing master copies of installs for archival and easy transfer onto smallest, cheapest possible USB should that ever be a desired action. In a nutshell this is in automated Bash script form, what you would normally do in GParted. Useful if you dont have gparted but do have the parted libraries installed such as a developer or canary install of chromeos where you've added these things. 
 
-+ [raybuntuusbkernel.sh](raybuntuusbkernel.sh)
++ [raybuntuusbkernel.sh](tools/linux/)
 
-+ [Kernel Kit](./kernel_kit/)
++ [Kernel Kit](tools/linux/kernel_kit/)
 
 Use at your own risk contact me if you need help [http://rayanthony.io](http://rayanthony.io)
 
