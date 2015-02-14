@@ -26,12 +26,12 @@ These are some useful tools I've cooked up for the purpose of creating USB Drive
 + [raybuntuusb.sh](https://github.com/rayantony/chrub/blob/master/tools/linux/raybuntuusb.sh)
 raybuntuusb.sh: This tool that runs in Bash is for taking an unpartitioned USB key/drive with no more than a Master Boot Record or MBR and creating a GPT table in the style of ChromeOS on which a kernel (partition 6) and filesystem (partition 7) can be placed. Because I "dd" the partitions from my clone repository or another plugged in drive, the partitions themselves are not actually formatted
 
-+ [raybuntuusbfix.sh](tools/linux/raybuntuusbfix.sh)
++ [raybuntuusbfix.sh](https://github.com/rayantony/chrub/blob/master/tools/linux/raybuntuusbfix.sh)
 Post "dd" fixer to adjust filesystem sizes and perform maintenance standard fsck'ing and e2fsck procesing especially useful for condensing master copies of installs for archival and easy transfer onto smallest, cheapest possible USB should that ever be a desired action. In a nutshell this is in automated Bash script form, what you would normally do in GParted. Useful if you dont have gparted but do have the parted libraries installed such as a developer or canary install of chromeos where you've added these things. 
 
-+ [raybuntuusbkernel.sh](tools/linux/)
++ [raybuntuusbkernel.sh](https://github.com/rayantony/chrub/blob/master/tools/linux/)
 
-+ [Kernel Kit](tools/linux/kernel_kit/)
++ [Kernel Kit](https://github.com/rayantony/chrub/blob/master/tools/linux/)
 
 Use at your own risk contact me if you need help [http://rayanthony.io](http://rayanthony.io)
 
