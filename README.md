@@ -5,7 +5,7 @@
 
 ####see also [http://rayantony.github.io/chrub](https://rayantony.github.io/chrub/)
 
-This a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run along with a Pi B exclusively for literally everything including multiple businesses in all phases, development, beta testing, all communication non-cellular, and any entertainment needs if the time were allotted. Though not necessarily by preference. This involves a fair amount of setup work and understanding of the nuances fo the machine, of ChromeOS and of Linux. Nothing terribly complicated but enough to surely frighten the novice linux user, perhaps with good reason. There is a lot to know but with this knowledge comes great power at almost inconceivably reasonable/affordable pricing. More for less, not something you stumble into everyday. If I could buy one for everyone in the world I would. 
+This a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run along with a Pi B exclusively for literally everything including multiple businesses in all phases, development, beta testing, all communication non-cellular, and any entertainment needs if the time were allotted. Though not necessarily by preference. This involves a fair amount of setup work and understanding of the nuances of the machine, of ChromeOS and of Linux. Nothing terribly complicated but enough to surely frighten the novice linux user, perhaps with good reason. There is a lot to know but with this knowledge comes great power at almost inconceivably reasonable/affordable pricing. More for less, not something you stumble into everyday. If I could buy one for everyone in the world I would. 
 
 ###Critical Acclaim (sort of):
 <ul><i>
