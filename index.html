@@ -32,21 +32,25 @@
       <section>
         <div id="title">
           <h1>Chrub</h1>
-          <p>a collection of my raybuntu/Ubuntu and chrubuntu setup tools and configurations</p>
+          <p>a collection of my raybuntu and chrubuntu setup tools and configurations</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/rayantony">rayantony</a></span>
-          <span class="credits right">Hosted on <a href="https://github.com/rayantony/chrub">Github</a></a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
         <h1>
-<a id="chrub" class="anchor" href="#chrub" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://rayantony.github.io/chrub">chrub</a>
+<a id="chrub" class="anchor" href="#chrub" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://rayantony.github.io/chrub/">chrub</a>
 </h1>
 
 <h3>
-<a id="acer-c7-chromebook-resources" class="anchor" href="#acer-c7-chromebook-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acer C7 Chromebook Resources</h3>
+<a id="acer-c7-chromebook-resources-readmemd" class="anchor" href="#acer-c7-chromebook-resources-readmemd" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/rayantony/chrub/blob/master/README.md">Acer C7 Chromebook Resources README.md</a>
+</h3>
 
 <h4>
-<a id="a-collection-of-my-chrubuntu-setup-tools-and-configurations-for-the-acer-c710-2847-of-which-i-run-exclusively-for-literally-everything-not-necessarily-by-preference" class="anchor" href="#a-collection-of-my-chrubuntu-setup-tools-and-configurations-for-the-acer-c710-2847-of-which-i-run-exclusively-for-literally-everything-not-necessarily-by-preference" aria-hidden="true"><span class="octicon octicon-link"></span></a>a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run exclusively for literally everything, not necessarily by preference.</h4>
+<a id="see-also-httprayantonygithubiochrub" class="anchor" href="#see-also-httprayantonygithubiochrub" aria-hidden="true"><span class="octicon octicon-link"></span></a>see also <a href="https://rayantony.github.io/chrub/">http://rayantony.github.io/chrub</a>
+</h4>
+
+<p>This a collection of my chrubuntu setup tools and configurations for the Acer c710-2847 of which I run along with a Pi B exclusively for literally everything including multiple businesses in all phases, development, beta testing, all communication non-cellular, and any entertainment needs if the time were allotted. Though not necessarily by preference. This involves a fair amount of setup work and understanding of the nuances fo the machine, of ChromeOS and of Linux. Nothing terribly complicated but enough to surely frighten the novice linux user, perhaps with good reason. There is a lot to know but with this knowledge comes great power at almost inconceivably reasonable/affordable pricing. More for less, not something you stumble into everyday. If I could buy one for everyone in the world I would. </p>
 
 <h3>
 <a id="critical-acclaim-sort-of" class="anchor" href="#critical-acclaim-sort-of" aria-hidden="true"><span class="octicon octicon-link"></span></a>Critical Acclaim (sort of):</h3>
@@ -64,19 +68,35 @@
 <li>"you'll have to accept a lot of compromises"</li>
 </ul>
 
+</i><p><img class="emoji" title=":laughing:" alt=":laughing:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f606.png" height="20" width="20" align="absmiddle"></p>
+
 <h3>
 <a id="file-attachments" class="anchor" href="#file-attachments" aria-hidden="true"><span class="octicon octicon-link"></span></a>File Attachments</h3>
 
-</i><p>These are some useful tools I've cooked up for the purpose of creating USB Drives to run instances of Ubuntu/Chrubuntu/Raybuntu from. In haphazard repositories and folders scattered around there are many versions of each script, I'm attempting to organize and put working tested versions in a single place (this place). </p>
+<p>These are some useful tools I've cooked up for the purpose of creating USB Drives to run instances of Ubuntu/Chrubuntu/Raybuntu from most favor 12.04 64bit. In haphazard repositories and folders scattered around there are many versions of each script, I'm attempting to organize and put working tested versions in a single place (this place). In the hope of making my life easier and perhaps someone elses too.</p>
 
 <ul>
-<li><p><a href="raybuntuusb.sh">raybuntuusb.sh</a>
+<li><p><a href="https://github.com/rayantony/chrub/blob/master/tools/linux/raybuntuusb.sh">raybuntuusb.sh</a>
 raybuntuusb.sh: This tool that runs in Bash is for taking an unpartitioned USB key/drive with no more than a Master Boot Record or MBR and creating a GPT table in the style of ChromeOS on which a kernel (partition 6) and filesystem (partition 7) can be placed. Because I "dd" the partitions from my clone repository or another plugged in drive, the partitions themselves are not actually formatted</p></li>
-<li><p><a href="raybuntuusbfix.sh">raybuntuusbfix.sh</a>
+<li><p><a href="https://github.com/rayantony/chrub/blob/master/tools/linux/raybuntuusbfix.sh">raybuntuusbfix.sh</a>
 Post "dd" fixer to adjust filesystem sizes and perform maintenance standard fsck'ing and e2fsck procesing especially useful for condensing master copies of installs for archival and easy transfer onto smallest, cheapest possible USB should that ever be a desired action. In a nutshell this is in automated Bash script form, what you would normally do in GParted. Useful if you dont have gparted but do have the parted libraries installed such as a developer or canary install of chromeos where you've added these things. </p></li>
-<li><p><a href="../master/tools/linux/raybuntuusbkernel.sh">raybuntuusbkernel.sh -not uploaded</a></p></li>
-<li><p><a href="../master/kernel_kit/">Kernel Kit -not uploaded yet</a></p></li>
+<li><p><a href="https://github.com/rayantony/chrub/blob/master/tools/linux/">raybuntuusbkernel.sh</a></p></li>
+<li><p><a href="https://github.com/rayantony/chrub/blob/master/tools/linux/">Kernel Kit</a></p></li>
 </ul>
+
+<p>Use at your own risk contact me if you need help <a href="http://rayanthony.io">http://rayanthony.io</a></p>
+
+<h3>
+<a id="so-why" class="anchor" href="#so-why" aria-hidden="true"><span class="octicon octicon-link"></span></a>So Why?</h3>
+
+<p>This is being typed on one such machine and it is the least expensive computer I have purchased in my life. By a considerable margin. I by a not so funny coincidence am more cash poor than I have ever been in my life, the confluence of these two circumstances (1 shortly preceding the other) has culminated in a new level of appreciation for affordable technology. As well an appreciation the difficulties facing those who never had a shot at wealth to begin with. I continue to use these machines largely because by my estimation it is cost prohibitive to reproduce the abilities they offer with more respected branded hardware. I am typing this article with in excess of 50 tabs, 3 ssh terminals, 5-10 additional terminals, an inconsistent source of power, output to a 40 inch LCD via HDMI, running a development Chrome, under Ubuntu 12.04.x, on a 8gb USB key-not the included SSD, and approx 10GB DDR3 RAM, it's at the moment the fastest machine I have ever used. though it would not be so under normal install conditions. This is the "why". Faster and cheaper is better, and better is good.</p>
+
+<h3>
+<a id="side-note" class="anchor" href="#side-note" aria-hidden="true"><span class="octicon octicon-link"></span></a>Side Note</h3>
+
+<p>As a side note this particular USB is so slow I was going to toss is as defective. Such drives are enormously helpful as their lack of value provide a complete testing ground on which I can experiment fearlessly given they are trash bound anyway. This is what led me to an exciting discovery on the usefuless of tinkering with Linux tmpfs settings. In short an attempt to have a workable way to retrieve data from this drive while not being subject to the maddeningly slow performance, I have found a way to run faster than any machine i have ever used-period, with the additional benefit of true ephemeral chrome instances much like its Chromium counterpart. I will expand on this and the methodology later and likely in a separate repository where I can place the necessary setup files once I complete them. This further adds thoguh to the value of these machines as I can honestly say I am using a device that limits me in no practical way I can think of off hand, and in the ways I feel limited I would feel no different using top of the line macs. Since I dont use or care about the trackpad of any laptop, preferring an external keyboard mouse my whole life, I could give a shit about how nice the mac one is perceived to be. For now I am content to run faster for under $300, and a minimal level of pretention. </p>
+
+<p>2013-2015 Ray Anthony <a href="http://oneworldlicense.com">oneworldlicensed</a> <a href="http://trollno.com">trollno protected</a> all rights reserved and all re-use is granted to the world should any occupant of that world find a use case where any of this is helpful, I am honored to have assisted.    </p>
 </ul>
       </section>
 
